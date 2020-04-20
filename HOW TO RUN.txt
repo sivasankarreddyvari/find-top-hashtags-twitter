@@ -1,0 +1,16 @@
+
+start hdfs demoens
+start derby database
+start mongoDB
+
+
+1. run stream.py file from command prompt
+	python twitterstream.py
+
+2. Then run tweetAnalysis from jupyter notebook (open anaconda prompt and type "jupyter notebook", this opens jupyter notebook 
+
+3. Then run dashboard/dashboard.py file from the command prompt
+	py dashboard/dashboard.py
+
+4. Now can browse localhost:5000 to see the output
+
