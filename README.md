@@ -51,7 +51,7 @@ Do Real-time Analysis
 •	Clean the tweets
 •	Locate the most important hashtags
 
-![alt text](Outputs/run sparkstreaming script on jupyter notebook.PNG "Description goes here")
+![alt text](Outputs/run-sparkstreaming-script-on-jupyter-notebook.PNG "Description goes here")
 
 Database
 •	Using MongoDB to store the results of an study 
@@ -64,42 +64,7 @@ Visualization (Output)
 •	Timeline of related most related hashtags, search keyword
 •	Now can browse localhost:5000 to see the output
 
-![alt text](Outputs/OUTPUT listing from mongoDB.PNG "Description goes here")
-
-
-
-
-
-
-HOW to Run:
-
-1. python twitterstream.py
-
-2. Sprak Streaming, run tweetAnalysis from jupyter notebook
-
-3. For Data Visualization, run dashboard/dashbaord.py
-python dashboard/dashboard.py
-
-
-Implementation:
-
-Twitter API
-  Use the tweepy Twitter API to stream tweets 
-  Filter out the tweets containing the specific keywords / hashtags we want to track. 
-  To give the tweets to the spark job, using TCP / IP socket 
-  
-Real-time Analysis
-  Using Spark Streaming to real-time tweet review 
-  Clean the tweets
-  Locate the most important hashtags 
-Database
-  Using MongoDB to store the results of an study 
-
-
-Visualization (Output)
-  Time line of related  most related hashtags, search keyword
-  Now can browse localhost:5000 to see the output
- 
+![alt text](Outputs/OUTPUT-listing-from-mongoDB.PNG "Description goes here")
 
 
 HOW TO RUN:
