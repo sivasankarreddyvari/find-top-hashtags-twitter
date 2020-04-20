@@ -2,6 +2,7 @@
 Do real-time analysis on the tweets, find the top #Hashtags from twitter data
 
 Tools & Technologies:
+
 Tweepy (And your own pair of API Keys from Twitter);
 Pyspark (Python 3.7, Spark 2.4);
 Jupyter Notebook;
