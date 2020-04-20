@@ -67,3 +67,4 @@ HOW TO RUN:
 4. Now can browse localhost:5000 to see the output
 
   
+NOTE: Refer documentation.doc file for full details
