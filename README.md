@@ -42,7 +42,7 @@ Connect to Twitter
 •	5. Scroll to the bottom of the page and click the Create My Access Tokens button. 
 •	6. Copy Consumer Key, Consumer Secret, Access Token, Access Token Secret. 
 
-![alt text](Outputs/twitter credentials.png "Description goes here")
+![alt text](Outputs/twitter-credentials.png "Description goes here")
 
 ![alt text](Outputs/running twitterstream to stream twitter data.PNG "Description goes here")
 
