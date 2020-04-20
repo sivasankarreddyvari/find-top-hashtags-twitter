@@ -1,0 +1,169 @@
+body.application{
+	background: #f2f2f2;
+	padding: 0px 0px 0px;
+}
+
+body.application div[class^="row"] {
+	padding-left: 0px;
+}
+
+body.application > .container-fluid {
+	padding-left: 0px;
+	padding-right: 0px;
+}
+
+body.application > .container {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+body.application div[class^="col-"] {
+	padding-left: 5px;
+	padding-right: 5px;
+}
+body.application div[class^="col-"] div[class^="col-"] {
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+body.application p.summary {
+	font-size: 200%;
+	color: black;
+	opacity: .8;
+	padding-left: 0px;
+	font-family: Lato;
+	font-weight: 500;
+}
+
+body.application p.sub-summary {
+  font-size: 100%;
+  color: black;
+	opacity: .5;
+	padding-left: 0px;
+	font-family: Lato;
+	font-weight: bold;
+}
+
+.navbar-default .container-fluid {
+	background-color: #3d4a57;
+	padding: 10px 8px 10px;
+	opacity: .9;
+}
+
+.navbar-inverse .navbar-nav > li > a,
+.navbar a.navbar-brand {
+	color: white;
+	text-decoration: none;
+	font-size: 180%;
+	font-family: Lato;
+	font-weight: 500;
+}
+
+.navbar ul.navbar-nav {
+  color: white;
+	padding-right: 5%;
+	padding-top: 7px;
+  text-decoration: none;
+  font-size: 180%;
+	font-family: Lato;
+	font-weight: 500;
+}
+
+.icon {
+	padding-left: 20px;
+}
+
+.axis {
+	font: 10px sans-serif;
+}
+
+.axis path,
+.axis line {
+	fill: none;
+	stroke: black;
+	opacity: 0.3;
+	shape-rendering: crispEdges;
+}
+
+ 
+.path_line {
+	fill: none;
+	stroke: steelblue;
+	stroke-width: 2;
+}
+
+.path_line:hover{
+	stroke: blue;
+	stroke-width: 3;
+}
+
+.tick text{
+	font-size: 10px;
+}
+
+.tick line{
+  stroke: blue;
+	opacity: 0.2;
+}
+
+keyword.tooltip{
+  position: absolute;
+  text-align: center;
+  width: 60px;
+  height: 40px;
+  padding: 2px;  
+  font: 12px sans-serif;
+  background: lightsteelblue;  
+  border: 0px;  
+  border-radius: 8px;  
+  pointer-events: none;
+}
+
+
+count.tooltip{
+	position: absolute;			
+	text-align: center;			
+	width: 60px;					
+	height: 20px;					
+	padding: 2px;				
+	font: 12px sans-serif;
+	background: lightsteelblue;	
+	border: 0px;		
+	border-radius: 8px;			
+	pointer-events: none;
+}
+
+.chart_wrapper {
+	background: #fff;
+	border: 1px solid #d4d4d4;
+	border-radius: 5px;
+	margin-bottom: 10px;
+}
+
+.chart_wrapper .chart_title {
+	background: #f2f2f2;
+	border-bottom: 1px solid #c9c4c4;
+	opacity: .8;
+	padding: 7px 10px 4px;
+	font-size: 130%;
+	font-family: Lato;
+}
+
+.chart_wrapper .chart_title i{
+	padding-left: 0px;
+}
+
+.chart_wrapper .chart_stage {
+	overflow: hidden;
+	padding: 5px 10px;
+	position: relative;
+}
+
+.chart_wrapper .text_stage {
+	font: 18px;
+	padding: 0px 10px;
+	position: relative;
+}
+
+
+
