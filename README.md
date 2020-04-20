@@ -44,7 +44,7 @@ Connect to Twitter
 
 ![alt text](Outputs/twitter-credentials.png "Description goes here")
 
-![alt text](Outputs/running twitterstream to stream twitter data.PNG "Description goes here")
+![alt text](Outputs/run-twitterstream.PNG "Description goes here")
 
 Do Real-time Analysis
 •	Using Spark Streaming to real-time tweet review 
@@ -60,6 +60,7 @@ Database
 
 Visualization (Output)
 •	Run dashboard\dashboard.py
+![alt text](Outputs/run-dashboard.py-to-build-dashboard.PNG "Description goes here")
 •	Timeline of related most related hashtags, search keyword
 •	Now can browse localhost:5000 to see the output
 
